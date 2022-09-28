@@ -12,7 +12,7 @@
 
 ## Description
 
-This is the simple web application for booking cinema tickets. To book an order, the user must be registered and authenticated. To change the data of the list of films, sessions, cinema halls, one user with ADMIN rights must log in.
+Using this simple web application registered and authenticated user can book cinema tickets. To change the data of the list of films, sessions, cinema halls, user must have ADMIN rights.
 
 ## Structure
 #### This web application structure is N-tier architecture model that including the following layers:
@@ -35,7 +35,7 @@ This is the simple web application for booking cinema tickets. To book an order,
 - Spring (MVC, Security)
 - Hibernate
 
-## Edpoints
+## Endpoints
 
 <table>
 <thead>
