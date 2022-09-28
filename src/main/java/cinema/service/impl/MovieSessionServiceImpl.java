@@ -1,7 +1,7 @@
 package cinema.service.impl;
 
 import cinema.dao.MovieSessionDao;
-import cinema.model.MovieSession;
+import cinema.lib.model.MovieSession;
 import cinema.service.MovieSessionService;
 import java.time.LocalDate;
 import java.util.List;

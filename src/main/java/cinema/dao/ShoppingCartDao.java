@@ -1,7 +1,7 @@
 package cinema.dao;
 
-import cinema.model.ShoppingCart;
-import cinema.model.User;
+import cinema.lib.model.ShoppingCart;
+import cinema.lib.model.User;
 
 public interface ShoppingCartDao {
     ShoppingCart add(ShoppingCart shoppingCart);

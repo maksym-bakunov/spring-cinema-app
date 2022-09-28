@@ -1,4 +1,4 @@
-package cinema.model;
+package cinema.lib.model;
 
 import java.util.Set;
 import javax.persistence.Column;

@@ -1,33 +1,28 @@
-package cinema.model;
+package cinema.lib.model;
 
-import java.time.LocalDateTime;
 import java.util.List;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
-import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "orders")
-public class Order {
+@Table(name = "shopping_carts")
+public class ShoppingCart {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @OneToMany
-    @JoinTable(name = "orders_tickets",
-            joinColumns = @JoinColumn(name = "order_id"),
+    @JoinTable(name = "shopping_carts_tickets",
+            joinColumns = @JoinColumn(name = "shopping_cart_id"),
             inverseJoinColumns = @JoinColumn(name = "ticket_id"))
     private List<Ticket> tickets;
-    @Column(name = "order_time")
-    private LocalDateTime orderTime;
-    @ManyToOne
-    @JoinColumn(name = "user_id")
+    @MapsId
+    @OneToOne
+    @JoinColumn(name = "id")
     private User user;
 
     public Long getId() {
@@ -46,14 +41,6 @@ public class Order {
         this.tickets = tickets;
     }
 
-    public LocalDateTime getOrderTime() {
-        return orderTime;
-    }
-
-    public void setOrderTime(LocalDateTime orderTime) {
-        this.orderTime = orderTime;
-    }
-
     public User getUser() {
         return user;
     }
@@ -64,10 +51,9 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{"
+        return "ShoppingCart{"
                 + "id=" + id
                 + ", tickets=" + tickets
-                + ", orderTime=" + orderTime
                 + ", user=" + user + '}';
     }
 }

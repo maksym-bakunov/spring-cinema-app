@@ -1,6 +1,6 @@
 package cinema.dao;
 
-import cinema.model.Role;
+import cinema.lib.model.Role;
 import java.util.Optional;
 
 public interface RoleDao {

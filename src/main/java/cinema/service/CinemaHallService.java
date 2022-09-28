@@ -1,6 +1,6 @@
 package cinema.service;
 
-import cinema.model.CinemaHall;
+import cinema.lib.model.CinemaHall;
 import java.util.List;
 
 public interface CinemaHallService {

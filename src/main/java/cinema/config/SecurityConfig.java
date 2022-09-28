@@ -1,6 +1,6 @@
 package cinema.config;
 
-import cinema.model.Role;
+import cinema.lib.model.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

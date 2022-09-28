@@ -1,8 +1,8 @@
 package cinema.service;
 
-import cinema.model.MovieSession;
-import cinema.model.ShoppingCart;
-import cinema.model.User;
+import cinema.lib.model.MovieSession;
+import cinema.lib.model.ShoppingCart;
+import cinema.lib.model.User;
 
 public interface ShoppingCartService {
     void addSession(MovieSession movieSession, User user);

@@ -2,7 +2,7 @@ package cinema.dao.impl;
 
 import cinema.dao.AbstractDao;
 import cinema.dao.CinemaHallDao;
-import cinema.model.CinemaHall;
+import cinema.lib.model.CinemaHall;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 

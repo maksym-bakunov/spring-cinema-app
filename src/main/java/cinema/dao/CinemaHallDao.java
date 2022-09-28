@@ -1,6 +1,6 @@
 package cinema.dao;
 
-import cinema.model.CinemaHall;
+import cinema.lib.model.CinemaHall;
 import java.util.List;
 import java.util.Optional;
 

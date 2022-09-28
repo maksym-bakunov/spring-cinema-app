@@ -2,7 +2,7 @@ package cinema.controller;
 
 import cinema.dto.request.UserRequestDto;
 import cinema.dto.response.UserResponseDto;
-import cinema.model.User;
+import cinema.lib.model.User;
 import cinema.service.AuthenticationService;
 import cinema.service.mapper.ResponseDtoMapper;
 import javax.validation.Valid;

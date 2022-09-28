@@ -3,7 +3,7 @@ package cinema.dao.impl;
 import cinema.dao.AbstractDao;
 import cinema.dao.UserDao;
 import cinema.exception.DataProcessingException;
-import cinema.model.User;
+import cinema.lib.model.User;
 import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

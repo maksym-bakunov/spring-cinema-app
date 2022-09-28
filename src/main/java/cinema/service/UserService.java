@@ -1,6 +1,6 @@
 package cinema.service;
 
-import cinema.model.User;
+import cinema.lib.model.User;
 import java.util.Optional;
 
 public interface UserService {

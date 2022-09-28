@@ -1,9 +1,9 @@
 package cinema.controller;
 
 import cinema.dto.response.OrderResponseDto;
-import cinema.model.Order;
-import cinema.model.ShoppingCart;
-import cinema.model.User;
+import cinema.lib.model.Order;
+import cinema.lib.model.ShoppingCart;
+import cinema.lib.model.User;
 import cinema.service.OrderService;
 import cinema.service.ShoppingCartService;
 import cinema.service.UserService;

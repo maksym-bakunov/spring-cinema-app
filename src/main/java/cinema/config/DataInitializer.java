@@ -1,7 +1,7 @@
 package cinema.config;
 
-import cinema.model.Role;
-import cinema.model.User;
+import cinema.lib.model.Role;
+import cinema.lib.model.User;
 import cinema.service.RoleService;
 import cinema.service.UserService;
 import java.util.Set;

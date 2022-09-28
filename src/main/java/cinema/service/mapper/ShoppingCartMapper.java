@@ -1,8 +1,8 @@
 package cinema.service.mapper;
 
 import cinema.dto.response.ShoppingCartResponseDto;
-import cinema.model.ShoppingCart;
-import cinema.model.Ticket;
+import cinema.lib.model.ShoppingCart;
+import cinema.lib.model.Ticket;
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
 

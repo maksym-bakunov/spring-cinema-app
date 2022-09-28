@@ -2,7 +2,7 @@ package cinema.controller;
 
 import cinema.dto.request.MovieSessionRequestDto;
 import cinema.dto.response.MovieSessionResponseDto;
-import cinema.model.MovieSession;
+import cinema.lib.model.MovieSession;
 import cinema.service.MovieSessionService;
 import cinema.service.mapper.RequestDtoMapper;
 import cinema.service.mapper.ResponseDtoMapper;

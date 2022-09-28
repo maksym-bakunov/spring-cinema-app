@@ -1,6 +1,6 @@
 package cinema.service.impl;
 
-import cinema.model.User;
+import cinema.lib.model.User;
 import cinema.service.AuthenticationService;
 import cinema.service.ShoppingCartService;
 import cinema.service.UserService;

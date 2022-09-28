@@ -1,7 +1,7 @@
 package cinema.service.impl;
 
 import cinema.dao.UserDao;
-import cinema.model.User;
+import cinema.lib.model.User;
 import cinema.service.UserService;
 import java.util.Optional;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
